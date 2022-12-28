@@ -4,7 +4,7 @@ This library provides functions for interacting with servers and sending HTTP re
 
 `connect(server_ip, password)`: Connects to the specified server using the provided password. Returns a connection object if the connection is successful, or raises an exception if the connection fails.
 
-`listen_traffic(server_conn)`: Listens for traffic on the specified server connection. Returns the traffic as a dictionary if traffic is detected, or blocks until traffic is detected.
+`listen_traffic(server_conn)`: Listens for traffic on the specified server. Returns hashed password, if traffic is detected, it is recommended to execute in a thread.
 
 `get(server_conn, resource)`: Sends a GET request to the specified server connection for the specified resource. Returns the resource if it exists, or raises an exception if it does not.
 
