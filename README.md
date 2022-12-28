@@ -1,6 +1,6 @@
 ## requests
 
-This library provides functions for interacting with servers and sending HTTP requests.
+_This library provides functions for interacting with servers and sending HTTP requests._
 
 `connect(server_ip, password)`: Connects to the specified server using the provided password. Returns a connection object if the connection is successful, or raises an exception if the connection fails.
 
@@ -14,7 +14,7 @@ This library provides functions for interacting with servers and sending HTTP re
 
 ## firewallv1
 
-This library provides functions for managing a firewall to protect a server from hacking attempts.
+_This library provides functions for managing a firewall to protect a server from hacking attempts._
 
 `enable(server)`: Enables the firewall for the specified server.
 
@@ -22,7 +22,7 @@ This library provides functions for managing a firewall to protect a server from
 
 ## hacklibv1
 
-This library provides functions for hacking into servers and attempting to guess passwords.
+_This library provides functions for hacking into servers and attempting to guess passwords._
 
 `bruteforce(server_ip, password_list)`: Tries to guess the password for the specified server using the provided list of passwords. Returns the password if it is successfully guessed, or None if it is not.
 
@@ -36,6 +36,20 @@ This library provides functions for hacking into servers and attempting to guess
 
 ## tamper
 
-This library provides functions for tampering with and decrypting traffic on a server.
+_This library provides functions for tampering with and decrypting traffic on a server._
 
 `bruteforcehash(encrypted_password)`: Tries to decrypt an encrypted password using a bruteforce attack. Returns the decrypted password if it is successfully retrieved, or raises an exception if it is not.
+
+## myinfo
+
+_This module contains basic variables about the player, including:_
+
+`money`: a variable that keeps track of the amount of money the player can spend on hacking and defense tools.
+
+`server_ip`: a string storing the IP address of the player's own server.
+
+`server_specs`: a dictionary or object storing information about the player's server, such as its processing power, memory and memory capacity.
+
+`running_scripts`: a list tracking the scripts that are currently running on the player's server.
+
+`max_concurrent_scripts`: an integer specifying the maximum number of scripts that can run on the player's server simultaneously.
