@@ -10,7 +10,7 @@ This library provides functions for interacting with servers and sending HTTP re
 
 `connected_users()`: Returns a list of dictionaries containing information about the users currently connected to the player's server. Each dictionary includes the user's username, IP address, and password hash.
 
-`refresh_cookies(server)`: Refreshes the cookies for a given server. Returns the updated cookies.
+`generate_random_cookies(server)`: Refreshes the cookies for a given server. Returns the updated cookies.
 
 ## firewallv1
 
