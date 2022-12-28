@@ -24,7 +24,7 @@ This library provides functions for managing a firewall to protect a server from
 
 This library provides functions for hacking into servers and attempting to guess passwords.
 
-`bruteforce(server_ip, password_list)`: Tries to guess the password for the specified server using the provided list of passwords. Returns the password if it is successfully guessed, or raises an exception if it is not.
+`bruteforce(server_ip, password_list)`: Tries to guess the password for the specified server using the provided list of passwords. Returns the password if it is successfully guessed, or None if it is not.
 
 `list_common_passwords()`: Returns a list of common passwords that can be used in password-cracking attacks.
 
